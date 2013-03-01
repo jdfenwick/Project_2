@@ -15,3 +15,8 @@ Build an application that tracks some data about a user-specified search term on
 (5) You'll need to use Google WebFonts in some way
 
 (6) Your code should pass HTML Lint and JSLint with all options turned on.
+
+Using Text Fit plugin
+
+The only errors I get in js lint is the global variable error and weird formatting errors that never seem to go away.
+Html lint is just quote attribute errors, everything else works fine.

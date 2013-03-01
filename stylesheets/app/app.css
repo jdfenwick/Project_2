@@ -3,7 +3,15 @@
   text-align: center;
   font-family: 'Wendy One', sans-serif;
   background: #FFBD73;
-  font-size: 200%;
+  font-size: 150%;
+}
+
+#user_interface{
+  padding: auto;
+  text-align: center;
+  font-family: 'Wendy One', sans-serif;
+  background: #FFBD73;
+  font-size: 120%;
 }
 
 #tweets{
@@ -13,4 +21,10 @@
 
 body{
   background: #BF7C30;
+}
+
+#tweet_counter{
+  text-align: center;
+  font-family: 'Wendy One', sans-serif;
+  font-size: 110%;
 }

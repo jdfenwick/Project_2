@@ -8,7 +8,7 @@
     var twitter = new ctwitter.CTwitter(),
       tweetTopic = "",
       tweetCount = 0;
-    $("#fittext_1").fitText();  
+    
 
     $("#user_button").click(function () { 
       $("#tweet_counter").hide();
@@ -24,7 +24,7 @@
             $(this).remove();
           });
           //displays tweets
-          $("#tweet_counter").html("<p>Number of tweets: "+ tweetCount + "</p>");
+          $("#tweet_counter").html("<p>Number of tweets: " + tweetCount + "</p>");
 
         });//end stream
         $("#user_interface").fadeOut();
@@ -33,7 +33,8 @@
       }); 
  
     });
-    jQuery("h1").fitText();
+    $("#fittext_1").fitText();
+    $("fittext_2").fitText();
 
   };
 
